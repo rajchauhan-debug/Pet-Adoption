@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Pets</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .pets-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .pet-profile {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .pet-profile img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Available Pets</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="available-pets.html">Available Pets</a></li>
+                <li><a href="adoption-form.html">Adoption Form</a></li>
+                <li><a href="success-stories.html">Success Stories</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Meet Our Pets</h2>
+        <div class="pets-container">
+            <div class="pet-profile">
+                <img src="retriever.jpg" alt="Buddy">
+                <h3>Buddy</h3>
+                <p>Age: 2 years</p>
+                <p>Breed: Labrador Retriever</p>
+                <p>Description: Friendly and energetic</p>
+            </div>
+            <div class="pet-profile">
+                <img src="Mittens.jpg" alt="Mittens">
+                <h3>Mittens</h3>
+                <p>Age: 3 years</p>
+                <p>Breed: Persian Cat</p>
+                <p>Description: Calm and affectionate</p>
+            </div>
+            <div class="pet-profile">
+                <img src="Cinnamon - Rabbit.jpg" alt="Cinnamon">
+                <h3>Cinnamon</h3>
+                <p>Age: 2 years</p>
+                <p>Breed: Netherland Dwarf</p>
+                <p>Description: Smart, talkative, and loves to be the center of attention</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
